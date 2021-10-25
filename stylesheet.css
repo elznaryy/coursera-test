@@ -299,7 +299,7 @@ body {
 /* Start How */
 .how {
     bfmin.jpg
- background-image: url(./bfmin.jpg);
+ background-image: url(bfmin.jpg);
   height: 650px;
   background-size: 100% 750px;
   padding-top: 20px;
