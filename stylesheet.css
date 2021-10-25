@@ -1,0 +1,407 @@
+.newform {
+position:relative;
+
+}
+form {
+    border: 5px solid #eac60b;
+    height:800px;
+    background-color:#222 ;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #eac60b;
+    ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    /* Add a hover effect for buttons */
+    button:hover {
+        opacity: 0.8;
+    }
+
+/* Extra style for the cancel button (yellwo) */
+.cancelbtn {
+    width:auto;
+    position:relative;
+    left:620px;
+    padding: 10px 18px;
+    background-color: #eac60b;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+
+}
+/*sign in button */
+.signbutton {
+    width: auto;
+    position: relative;
+    left: 1100px;
+    bottom:-40px;
+    padding: 10px 18px;
+    background-color: #eac60b;
+}
+
+
+------------------------------------------------------
+.abuelmkarem {
+color:aliceblue;
+
+}
+.logo {
+    font-size: 70px;
+    color: #f3f3f3;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+.logo2{
+
+    background-color: #222;
+}
+
+body {
+  font-family: "Oswald";
+  margin: 0px;
+  padding: 0px;
+  height: 400px;
+}
+.cont {
+  width: 1170px;
+  margin: auto;
+}
+/*Star Head*/
+.head {
+    padding: 20px 20px;
+    border: 1px solid #b3b3b3;
+    background-color: #222;
+}
+.head input {
+  background-color: white;
+  width: 200px;
+  border: 1px #b3b3b3 solid;
+  color: #b3b3b3;
+  font-size: 11pt;
+  float: left;
+  padding: 10px 5px;
+  font-weight: lighter;
+}
+.head i {
+  position: relative;
+  bottom: -6px;
+  left: -2%;
+  color: #b3b3b3;
+}
+.head i:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+.menu {
+  width: 50px;
+  float: right;
+}
+.head .menu div {
+    display: inline;
+    width: 40px;
+    height: 4px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    margin: 3px;
+    float: right;
+}
+.menu:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+/*End Head*/
+
+/*Start Home Repaire*/
+.home {
+  padding-top: 70px;
+}
+.text {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+.home .cont .text h1 {
+  font-size: 74pt;
+  text-transform: uppercase;
+  color: #f1c50e;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 120px;
+  font-family: "Oswald";
+}
+.home .cont .text h2 {
+  font-size: 40pt;
+  color: #b3b3b3;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 48px;
+  font-weight: lighter;
+  line-height: 10px;
+}
+.home .cont .text p {
+  width: 95%;
+  margin-right: 5%;
+}
+.home .cont .picture {
+  width: 50%;
+  float: right;
+  display: inline-block;
+  position: relative;
+}
+.home .cont .picture img {
+  width: 100%;
+  margin: 0px;
+  height: 550px;
+}
+.home .cont .picture .over {
+  position: absolute;
+  top: 300px;
+  right: 11px;
+  width: 70%;
+  height: 70%;
+}
+.home .cont .text button {
+  background: none;
+  padding: 10px 30px;
+  font-size: 12pt;
+  border: 2px solid #222;
+  color: #333;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+
+/*End Home Repaire*/
+
+/*Start Features*/
+.features {
+  margin-top: 180px;
+  height: 340px;
+  background-color: #eac60b;
+}
+.features .cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.features .cont > div {
+  background-color: white;
+  width: 280px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 18pt;
+  font-weight: bold;
+  color: #eac60b;
+  text-transform: uppercase;
+}
+.features .cont div p {
+  text-align: center;
+  font-size: 10pt;
+  font-weight: initial;
+  color: #999;
+  padding: 0px 10px 10px;
+  text-transform: initial;
+  text-align: 1.2;
+}
+.features .cont div .ico {
+  font-size: 30pt;
+  height: 70px;
+  width: 70px;
+  color: #222;
+  background-color: #eac60b;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 104px;
+  margin-top: -79px;
+  margin-bottom: 26px;
+}
+
+/*End Features*/
+
+/* Start About US */
+.about {
+  height: 400px;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+.about .cont {
+  color: #111111;
+  font-size: 80px;
+  text-align: center;
+}
+.about .cont p {
+  text-align: 1.3;
+  font-size: 20px;
+  width: 70%;
+  margin: 50px auto -25px;
+  font-weight: lighter;
+  padding-bottom: 0px;
+}
+.about .cont button {
+  background: #eac60b;
+  padding: 13px 30px;
+  font-size: 12pt;
+  border: none;
+  color: #333;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+/* End About Us */
+
+/* Start How */
+.how {
+  background-image: url(../bfmin.jpg);
+  height: 650px;
+  background-size: 100% 750px;
+  padding-top: 20px;
+}
+.how .cont div span {
+  background-color: #eac60b;
+  text-transform: initial;
+  font-size: 40px;
+  letter-spacing: 10px;
+  display: block;
+  font-weight: initial;
+}
+
+.how .cont div {
+  height: 438px;
+  width: 387px;
+  background-color: #eac60b;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 103px;
+  font-weight: bold;
+  line-height: 1.1;
+  padding: 40px 40px;
+  color: #111111;
+  word-spacing: 1.1;
+}
+.how .cont > p {
+  color: white;
+  margin-top: 35px;
+}
+.how .cont p a {
+  color: #eac60b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* End How */
+
+/* Start popular */
+.popular {
+  
+  background-color: #ddd;
+  background-image: url(../fffmin.jpg);
+  height: 750px;
+  background-size: 100% 800px;
+  padding-top: 40px;
+}
+.popular .cont h1 {
+  font-size: 4em;
+  margin-bottom: 0px;
+  color: #222;
+}
+
+.popular .cont p {
+  color: black;
+  margin-top: 10px;
+  width: 78%;
+}
+.popular .cont > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 450px;
+  font-weight: bold;
+  color: #eac60b;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.popular .cont div p {
+  font-size: 12pt;
+  font-weight: initial;
+  color: #999;
+  padding: 13px 10px 10px;
+  text-transform: initial;
+  text-align: 1.3;
+  margin: 0px 30px;
+}
+.popular .cont div img {
+  display: block;
+  margin: 20px auto;
+}
+
+.popular .cont > div div {
+  background-color: #222;
+  border-radius: 30px;
+  width: 370px;
+}
+
+.popular .cont p a {
+  color: #151619;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* End popular */
+
+p {
+  color: #222;
+  font-family: Arial;
+  line-height: 1.7;
+  padding-bottom: 20px;
+}
+.clear {
+  clear: both;
+}

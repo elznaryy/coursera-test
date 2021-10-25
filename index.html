@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang= dir="ltr">
+<html ng-app="myfirstapp">
   <head>
     <meta charset="utf-8">
-    <title>hello</title>
+    <title>my first app</title>
+
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+
   </head>
   <body>
-  <p>hey ahmed what about you </p>
-<h1>hello mother fucker</h1>
+
+  <p>"hey ahmed what about you </p>
+
+  {{sayhello}}
+<h1>hello mother fuckerrrr</h1>
+
+<div ng-controller="myfirstcontroller">
+{{sayhello()}}
+{{name}}
+{{name }}
+
+
+</div>
+<div ng-controller="myfirstcontroller">
+
+<input type="text" ng-model="name">
+the input is :{{name}}
+
+</div>------------------------
+<div ng-controller="first-test">
+  {{name}}
+
+  <input type ="text" ng-model="name">
+   your ca;culatng num is :{{}}
+
+
+ahmed
+<script>
+function (){
+  console.log('ahmed can type java script code function that can type things');
+}());
+functionname();
+</script>
+
+
+</div>
+
+
 
 
   </body>
